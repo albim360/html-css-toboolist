@@ -55,9 +55,9 @@ header {
 }
 
 .contenitore-scritta {
-    border-radius: 10px;
+    border-radius: 12px;
     color: white;
-    padding: 5px;
+    padding: 7px;
     font-size: 11px;
     vertical-align: middle;
 
@@ -118,3 +118,10 @@ h2 {
     margin-bottom: 20px;
 }
 
+.website {
+    background-color: rgb(189, 120, 189) ;
+}
+
+.sales {
+    background-color: rgb(122, 185, 110);
+}
