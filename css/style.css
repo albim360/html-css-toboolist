@@ -1,36 +1,52 @@
-*{
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
+body {
     background-color: #f6f8f9;
 }
 
-header{
+header { 
     background-color: white;
 }
 
-.logo{
+.logo {
     margin: 0px 0px 20px 20px;
     padding: 20px 0;
 }
 
-.logo div{
+.logo div {
     font-weight: bolder;
     font-size: 30px;
     display: inline-block;
     vertical-align: middle;
 }
 
-.logo img{
+.logo img {
     width: 50px;
     vertical-align: middle;
 }
 
-.contenitore{
+#addtask {
+    background-color: #47adf1dd;
+    color: white;
+    border: 0.5px solid #47adf1e9;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+#section {
+    background-color: white;
+    color: #9b9393dc;
+    border: 0.5px solid darkgray;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.contenitore {
     width: 70%;
     margin: 20px auto;
     padding-bottom: 20px;
@@ -38,7 +54,7 @@ header{
     border-radius: 10px;
 }
 
-.contenitore-scritta{
+.contenitore-scritta {
     border-radius: 10px;
     color: white;
     padding: 5px;
@@ -47,11 +63,11 @@ header{
 
 }
 
-.editorial{
+.editorial {
     background-color: #47adf1;
 }
 
-.green{
+.green {
     border-radius: 50%;
     border: 0.5px solid green;
     color: green;
@@ -61,6 +77,44 @@ header{
     text-align: center;
 }
 
-.newtask{
-    margin-bottom: 15px;
+.task {
+    margin-bottom: 19px;
 }
+
+.divisore {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.q1{
+    background-color: #9262e7;
+}
+
+.recruiting {
+    background-color: #5eccb1;
+}
+
+.mobile {
+    background-color: #e3952f;   
+}
+
+.red{
+    border-radius: 50%;
+    border: 0.5px solid red;
+    color: red;
+    height: 23px;
+    width: 23px;
+    display: inline-block;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+#lineasup {
+    border-bottom: 1px solid #c1c7cadf;
+    padding: 10px 0px 10px 20px;
+    margin-bottom: 20px;
+}
+
